@@ -1,6 +1,6 @@
 Cluster,Segment Name,Size,% of Total,Avg Age,Avg Income,Avg Spending,Priority
 0,High Value Customers,39,19.5%,32.7,$87k,82,High
 1,Conservative High Earners,29,14.5%,36.5,$90k,18,Medium
-2,Average Customers,43,21.5%,49.8,$49k,40,Medium
+2,Mid-Life Moderates,43,21.5%,49.8,$49k,40,Medium
 3,Aspirational Spenders,54,27.0%,24.9,$40k,61,Medium
-4,Average Customers,35,17.5%,55.7,$54k,37,Medium
+4,Senior Savers,35,17.5%,55.7,$54k,37,Medium

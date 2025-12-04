@@ -85,6 +85,31 @@ Different combinations of these features may be used to build and compare cluste
 
 ---
 
+## Understanding the WCSS Results for Different Values of K
+
+The values below show how the Within-Cluster Sum of Squares (WCSS) changes as we increase the number of clusters (K):
+
+- **K=2: WCSS=588.80**
+- **K=3: WCSS=476.79**
+- **K=4: WCSS=388.72**
+- **K=5: WCSS=331.31**
+- **K=6: WCSS=276.41**
+- **K=7: WCSS=236.20**
+- **K=8: WCSS=199.75**
+- **K=9: WCSS=174.24**
+- **K=10: WCSS=152.03**
+
+**What does this mean?**
+
+- **WCSS** measures the compactness of the clusters: the lower the WCSS, the closer the data points are to their cluster centers.
+- As K increases, WCSS decreases. Having more clusters usually means each point is closer to the center of its cluster.
+- However, after a certain K value, the decrease in WCSS becomes smaller (the curve flattens). This is known as the 'elbow' in the Elbow Method.
+- The 'elbow' point is the optimal K, balancing tight clusters with model simplicity. For this dataset, it is typically around K=5.
+
+> *Choosing the right value of K using the Elbow Method helps us avoid over-segmentation while capturing the main patterns in customer behavior.*
+
+---
+
 ## Understanding the Silhouette Analysis Plot
 
 The **silhouette analysis plot** (`silhouette_analysis_plot.png`) is a visualization that helps evaluate the quality of clustering and determine the optimal number of clusters (K).
